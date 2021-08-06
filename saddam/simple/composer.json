@@ -1,0 +1,26 @@
+{
+    "name": "saddam/simple",
+    "description": "test packages",
+    "autoload": {
+        "psr-4": {
+            "Saddam\\Simple\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saddam\\Simple\\SimpleServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "saddam hussain",
+            "email": "saddam.phpdeveloper@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+     
+}
